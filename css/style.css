@@ -128,18 +128,18 @@ button:active{
 }
 .container.light .calculator{
    background: var(--main-white);
-   box-shadow:  10px 10px 20px #d5d5d5,
+   box-shadow:  10px 10px 20px #c4c4c4,
                -10px -10px 20px var(--main-white);
 }
 .container.light .calculator__screen{
    background: var(--main-white);
-   box-shadow: inset 10px 10px 20px #c1c1c1,
+   box-shadow: inset 10px 10px 20px #cdcdcd,
                inset -10px -10px 20px var(--main-white);
 }
 .container.light button{
    color: black;
    background: var(--main-white);
-   box-shadow:  7px 7px 14px #c1c1c1,
+   box-shadow:  7px 7px 14px #bbbbbb,
                -7px -7px 14px var(--main-white);
 }
 .container.light button:active{
@@ -147,12 +147,12 @@ button:active{
                -7px -7px 14px #e6e6e6;
 }
 .container.light .calculator__operators button[value="Clear"]{
-   background: #ebebeb;
+   background: #e5e5e5;
    grid-column: 1/3;
    width: 100%;
 }
 .container.light .calculator__operators button[value="="]{
-   background: #ebebeb;
+   background: #e5e5e5;
    grid-column: 1/3;
    width: 100%;
 }
